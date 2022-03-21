@@ -1,0 +1,72 @@
+html,
+body {
+    min-width: 290px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    line-height: 2em;
+}
+#navbar {
+    position:fixed;
+    text-align: left;
+    margin : 0px auto 0px auto;
+    min-width: 290px;
+    width: 300px;
+    line-height: 2.5em;
+    border-right: solid;
+    border-color: black;
+    height: 100vh;
+    color: grey;
+}
+
+#navbar li {
+    list-style: none;
+    border-top: 1px solid;
+    width: 100%;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+#main-doc {
+    text-align: left;
+    margin : 0px 350px 0px;
+    max-width: 2000px;
+    color: grey;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: white;
+  }
+}
+
+header {
+    color: black;
+    font-weight: thin;
+    font-size: 1.8em;
+    margin: 10px;
+}
+
+code {
+    background-color: lightgray;
+    padding: 20px;
+}
+
+section article {
+    margin: 15px;
+}
